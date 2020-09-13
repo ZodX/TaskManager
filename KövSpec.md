@@ -28,8 +28,8 @@ Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszp
 A web felület szabványos eszközökkel készüljön, html, css, javascript, etc...
 
 ### 6. Követelménylista
-K01 Könnyen üzemeltethető rendszer
-K02 Reszponzív dizájn
+* Könnyen üzemeltethető rendszer
+* Reszponzív dizájn
 
 
 
