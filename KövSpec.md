@@ -1,0 +1,36 @@
+# Task board követelményspecifikáció
+
+### 1. Jelenlegi helyzet
+Egyre több a felhalmozódó feladat számomra, amiket egyre nehezebb nyomonkövetni.
+Jelenleg egy táblán külön csoportokra bontva, azon belül cetlikre írom a feladataimat. 
+Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák veszítenek a tapadósságból ==> sok szemét  + költség) 
+
+### 2. Vágyálom rendszer
+Egy könnyen átlátható és kezelhető weboldal, ahol könnyen megvalósíthatóak a folyamatok. 
+Egyszerű szerkeszthetőség. Szeretném weboldalunk online kezelését is megoldani, hogy  távolról is láthassam az aktuális információkat.
+Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
+A weboldal könnyen üzemeltethető legyen. Elvárt a platformfüggetlenség.
+Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
+
+### 3. Jelenlegi üzleti folyamatok
+* Új cetli írása (Create task)
+* Cetli kidobása a kukába (Delete task)
+* Cetlik csoportosítása feladat kategóriája szerint (Group tasks)
+* Cetli levétele a tábláról (Task completed)
+
+### 4. Igényelt üzleti folyamatok
+* Cetli módosítása (Modify/Update task)
+* Feladat határidő megadása (Deadline)
+* Felhasználóbarát UI (Dark/Light mode + Színvak mode)
+* Feladatok prioritásának megadása (Prioritizing tasks)
+
+### 5. A rendszerre vonatkozó szabályok
+A web felület szabványos eszközökkel készüljön, html, css, javascript, etc...
+
+### 6. Követelménylista
+K01 Könnyen üzemeltethető rendszer
+K02 Reszponzív dizájn
+
+
+
+
