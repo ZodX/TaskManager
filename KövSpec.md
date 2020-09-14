@@ -13,7 +13,7 @@ Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák v
 * Feladat frissítése/módosítása (Új cetli írása(új feladat))
 
 ### 4. Igényelt üzleti folyamatok
-* Cetli módosítása (Modify/Update task)
+* Feladat módosítása (Modify/Update task)
 * Feladat határidő megadása (Deadline)
 * Felhasználóbarát UI (Dark/Light mode + Színvak mode)
 * Feladatok prioritásának megadása (Prioritizing tasks)
