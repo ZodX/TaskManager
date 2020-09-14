@@ -17,3 +17,7 @@ Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák v
 * Feladat határidő megadása (Deadline)
 * Felhasználóbarát UI (Dark/Light mode + Színvak mode)
 * Feladatok prioritásának megadása (Prioritizing tasks)
+
+### 6. Követelménylista
+* Könnyen üzemeltethető rendszer
+* Reszponzív dizájn
