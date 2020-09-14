@@ -18,6 +18,9 @@ Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák v
 * Felhasználóbarát UI (Dark/Light mode + Színvak mode)
 * Feladatok prioritásának megadása (Prioritizing tasks)
 
+### 5. A rendszerre vonatkozó szabályok
+A web felület szabványos eszközökkel készüljön, html, css, javascript, etc...
+
 ### 6. Követelménylista
 * Könnyen üzemeltethető rendszer
 * Reszponzív dizájn
