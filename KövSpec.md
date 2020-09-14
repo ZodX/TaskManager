@@ -5,6 +5,13 @@ Egyre több a felhalmozódó feladat számomra, amiket egyre nehezebb nyomonköv
 Jelenleg egy táblán külön csoportokra bontva, azon belül cetlikre írom a feladataimat.
 Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák veszítenek a tapadósságból ==> sok szemét  + költség)
 
+### 3. Jelenlegi üzleti folyamatok
+* Új feladat hozzáadása (Cetlire írás -> cetli letépése -> cetli táblára ragasztása)
+* Feladat törlése (Cetli levétele a tábláról -> cetli kukába dobása)
+* Feladatok csoportosítása (Cetlik egy adott helyre csoportosítása a táblán)
+* Feladat késznek nyilvánítása (Cetli ‘kész’ csoportba helyezése)
+* Feladat frissítése/módosítása (Új cetli írása(új feladat))
+
 ### 4. Igényelt üzleti folyamatok
 * Cetli módosítása (Modify/Update task)
 * Feladat határidő megadása (Deadline)
