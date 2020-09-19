@@ -2,6 +2,29 @@
 
 ## 1. A rendszer céljai és nem céljai
 
+### 1.1 A rendszer céljai
+
+Az elkészített rendszerrel a felhasználó képes lesz:
+
+* feladatait egy helyen, átláthatóan nyomonkövetni, felesleges szemét *(cetlik)* generálása nélkül
+* új feladatokat hozzáadni, módosítani a már létrehozottakat
+* csoportosítani a feladatokat
+* megadni a feladatok fontosságát *(prioritás)*
+* törölni, ha esetleg rosszul adott meg valamit, vagy késznek nyilvánítani a feladatokat
+* az elkészített feladatok listájának lekérdezésére
+* megváltoztatni az oldal témáját *(dark/light/colorblind)*
+* a fentebb felsoroltakat akármilyen internethasználatra alkalmas eszközön végrehajtani
+
+### 1.2 A rendszer ***NEM*** céljai
+
+Az elkészített rendszerrel a felhassználó ***NEM*** lesz képes:
+
+* több felhasználó adatait külön-külön kezelni
+* megtekinteni, hogy milyen akciókat hajtott végre az oldalon belül *(log)*
+* széleskörűen testreszabni a rendszert *(értsd: csak light/dark/colorblind téma)*
+* egyszerre több csoportba is elhelyezni egy feladatot
+* a hozzáadott feladatokat rendezni *('érkezési sorrend')*
+
 ## 2. Jelenlegi helyzet
 
 ## 3. Vágyálom rendszer
