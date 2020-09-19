@@ -42,6 +42,8 @@ Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszp
 ## 5. Igényelt üzleti folyamatok
 
 ## 6. Követelménylista
+* Könnyen üzemeltethető rendszer
+* Reszponzív dizájn
 
 ## 7. Használati esetek
 
