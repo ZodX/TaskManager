@@ -31,6 +31,11 @@ Jelenleg egy táblán külön csoportokra bontva, azon belül cetlikre ródnak a
 Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák veszítenek a tapadósságból ==> sok szemét  + költség)
 
 ## 3. Vágyálom rendszer
+Egy könnyen átlátható és kezelhető weboldal, ahol könnyen megvalósíthatóak a folyamatok. 
+Egyszerű szerkeszthetőség. Szeretném weboldalunk online kezelését is megoldani, hogy  távolról is láthassam az aktuális információkat.
+Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
+A weboldal könnyen üzemeltethető legyen. Elvárt a platformfüggetlenség.
+Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
 ## 4. Jelenlegi üzleti folyamatok
 
