@@ -26,6 +26,9 @@ Az elkészített rendszerrel a felhassználó ***NEM*** lesz képes:
 * a hozzáadott feladatokat rendezni *('érkezési sorrend')*
 
 ## 2. Jelenlegi helyzet
+Egyre több a felhalmozódó feladat számomra, amiket egyre nehezebb nyomon követni.
+Jelenleg egy táblán külön csoportokra bontva, azon belül cetlikre írom a feladataimat.
+Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák veszítenek a tapadósságból ==> sok szemét  + költség)
 
 ## 3. Vágyálom rendszer
 
