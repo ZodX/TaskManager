@@ -95,6 +95,6 @@ Elfelejtő Jenő a mindennapok során egyre több és több feladattal találja 
 
 ## 11. Fogalomszótár
 
-* Reszponzív design - A reszponzív design a weboldalnak egy olyan kialakítása, amelyik rugalmasan alkalmazkodik a különböző böngészők képernyőjének méretéhez annak érdekében, hogy optimális megjelenést biztosítson a felhasználónak minden böngészésre alkalmas eszközön, legyen az desktop, laptop, mobil, vagy tablet.
-* UI - User Interface (Felhasználói felület). A felület, amivel a felhasználó interrakcióba lép.
-* Konzisztens - Következetes
+* **Reszponzív design** - A reszponzív design a weboldalnak egy olyan kialakítása, amelyik rugalmasan alkalmazkodik a különböző böngészők képernyőjének méretéhez annak érdekében, hogy optimális megjelenést biztosítson a felhasználónak minden böngészésre alkalmas eszközön, legyen az desktop, laptop, mobil, vagy tablet.
+* **UI** - User Interface (Felhasználói felület). A felület, amivel a felhasználó interrakcióba lép.
+* **Konzisztens** - Következetes
