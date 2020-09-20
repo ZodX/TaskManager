@@ -20,7 +20,10 @@
 
 ### 3.7. Telepítési terv:
 
+A rendszer használatához a gépeken egyedül egy bönésző telepítésére van szükség, mivel a Task Managert egy Heroku nevezetű paltformra helyezzük el. Ez egy felhő alapú szolgáltatás, amin szerverünket működtethetjük.
+
 ## 4. Mikor:
+
 * Legkésőbb az osztályozásig véglegesíteni kell a rendszert.
 
 ## 5. Miből (erőforrások):
