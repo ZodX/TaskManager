@@ -50,13 +50,13 @@ Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszp
 ## 8. Megfeleltetés
 
 ## 9. Képernyőtervek
-    -    Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
-    -    A felhasználói felület legyen szellős és átlátható, jól különüljenek el egymástól az egyes funkciók, funkció csoportok.
-    -    A felületnek olyan kifejezéseket kell használnia, amelyek megfelelnek a rendszert legtöbbet használók tapasztalatainak.
-    -    A felületnek konzisztensnek kell lennie, azaz lehetőség szerint hasonló műveleteket hasonló módon kell realizálnia.
-    -    Legyen visszaállítható , a felületnek rendelkeznie kell olyan mechanizmusokkal, amelyek lehetővé teszik a felhasználók számára a hiba után történő visszaállítást.
-    -    A felületnek megfelelő interakciós lehetőségekkel kell rendelkeznie a
-rendszer különféle felhasználói számára.
+ * Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
+ * A felhasználói felület legyen szellős és átlátható, jól különüljenek el egymástól az egyes funkciók, funkció csoportok.
+ * A felületnek olyan kifejezéseket kell használnia, amelyek megfelelnek a rendszert legtöbbet használók tapasztalatainak.
+ * A felületnek konzisztensnek kell lennie, azaz lehetőség szerint hasonló műveleteket hasonló módon kell realizálnia.
+ * Legyen visszaállíható , a felületnek rendelkeznie kell olyan mechanizmusokkal , amelyek lehetővé teszik a felhasználók számára a hiba után történő visszaállítást.
+ * A felületnek megfelelő interakciós lehetőségekkel kell rendelkeznie a
+   rendszer különféle felhasználói számára.
 
 
 
