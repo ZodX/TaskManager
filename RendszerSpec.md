@@ -14,6 +14,17 @@
 
 ### 3.4. Adatbázis terv:
 
+A rendszerünk SQL adatbázisa egy táblát fog tartalmazni, ezáltal nem lesz kapcsolatban más táblákkal.
+
+A tábla  oszlopai a következők:
+
+* Id(szám): ez a generált kulcs
+* feladat(szöveg): a feladat leírása
+* csoport(szöveg): a feladat csoportja
+* prioritás(szám): a feladat prioritása(1-10)
+* utolsó módosítás(dátum): hozzáadás vagy későbbi módosítás dátuma
+* kész(logikai): azt jelzi, hogy az adott feladat kész *(true)* vagy aktív *(false)*
+
 ### 3.5. Implementációs terv:
 
 ### 3.6. Tesztterv:
