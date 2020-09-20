@@ -27,7 +27,7 @@ Az elkészített rendszerrel a felhassználó ***NEM*** lesz képes:
 
 ## 2. Jelenlegi helyzet
 Egyre több a felhalmozódó feladat, amiket egyre nehezebb nyomon követni.
-Jelenleg egy táblán külön csoportokra bontva, azon belül cetlikre ródnak a feladatok.
+Jelenleg egy táblán külön csoportokra bontva, azon belül cetlikre íródnak a feladatok.
 Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák veszítenek a tapadósságból ==> sok szemét  + költség)
 
 ## 3. Vágyálom rendszer
