@@ -38,6 +38,11 @@ A weboldal könnyen üzemeltethető legyen. Elvárt a platformfüggetlenség.
 Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
 ## 4. Jelenlegi üzleti folyamatok
+* Új feladat hozzáadása (Cetlire írás -> cetli letépése -> cetli táblára ragasztása)
+* Feladat törlése (Cetli levétele a tábláról -> cetli kukába dobása)
+* Feladatok csoportosítása (Cetlik egy adott helyre csoportosítása a táblán)
+* Feladat késznek nyilvánítása (Cetli ‘kész’ csoportba helyezése)
+* Feladat frissítése/módosítása (Új cetli írása(új feladat))
 
 ## 5. Igényelt üzleti folyamatok
 
