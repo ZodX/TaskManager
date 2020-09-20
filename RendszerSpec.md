@@ -7,5 +7,6 @@
 ## 3. Hogyan (terv):
 
 ## 4. Mikor:
+ * Legkésőbb az osztályozásig véglegesíteni kell a rendszert.
 
 ## 5. Miből (erőforrások):
