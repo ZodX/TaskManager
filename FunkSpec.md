@@ -78,7 +78,7 @@ Esetünkben az egyetlen aktorként a ***felhasználót*** sorolnám fel, mivel r
 * Feladat késznek nyilvánítása - **Kidolgozva**
 * Feladat módosítása - **Kidolgozva**
 * Felhasználóbarát UI (Dark/Light mode + Színvak mode) - **Kidolgozva**
-* Feladatok prioritásának megadása - Kidolgozva - **Kidolgozva**
+* Feladatok prioritásának megadása - **Kidolgozva**
 
 ## 9. Képernyőtervek
 
