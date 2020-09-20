@@ -83,3 +83,4 @@ Esetünkben az egyetlen aktorként a ***felhasználót*** sorolnám fel, mivel r
    rendszer különféle felhasználói számára.
 
 ## 10. Forgatókönyvek
+Elfelejtő Jenő a mindennapok során egyre több és több feladattal találja szembe magát és ez nagyon megerölteti pici agyát. Nem tudja , hogy mikor mit és hol kellene csinálnia , így gyakran csak a napot lopja. Próbálta már a teendőit kezére , cetlikre felírni. De a sok-sok cetlit nem bírta magával cipelni. Kétségbe esvén , nem tudván mit tegyen barátja Bará Tamás mutatott neki egy honlapot , ahol csupán internetre lesz szüksége és akár telefonról , táblagépről , számítógépről a napi teendőit bármikor elérheti. Teendőivel ha kész van nyugodtan törölheti és az összes kis "cetlit" a zsebében cipelheti. Ezután Elfelejtő Jenő fejéből teendő el nem vész és minden munkájával időben kész.
