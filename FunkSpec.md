@@ -72,13 +72,13 @@ Esetünkben az egyetlen aktorként a ***felhasználót*** sorolnám fel, mivel r
 
 ## 8. Megfeleltetés
 
-* Új feladat hozzáadása - Kidolgozva
-* Feladat törlése - Kidolgozva
-* Feladatok csoportosítása - Kidolgozva
-* Feladat késznek nyilvánítása - Kidolgozva
-* Feladat módosítása - Kidolgozva
-* Felhasználóbarát UI (Dark/Light mode + Színvak mode)
-* Feladatok prioritásának megadása - Kidolgozva
+* Új feladat hozzáadása - **Kidolgozva**
+* Feladat törlése - **Kidolgozva**
+* Feladatok csoportosítása - **Kidolgozva**
+* Feladat késznek nyilvánítása - **Kidolgozva**
+* Feladat módosítása - **Kidolgozva**
+* Felhasználóbarát UI (Dark/Light mode + Színvak mode) - **Kidolgozva**
+* Feladatok prioritásának megadása - Kidolgozva - **Kidolgozva**
 
 ## 9. Képernyőtervek
 
