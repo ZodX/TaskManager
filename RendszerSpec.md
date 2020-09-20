@@ -12,7 +12,6 @@
  * átláthatóság - ennek  megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva. Fontos az, hogy a programozók mindig értsék a munkatársaik logikáját. A kód legyen könnyen olvasható, hogy bárki be tudjon csatlakozni a munkába, és tudja folytatni azt.
  * javíthatóság - hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
  * felhasználóbarát - a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget. Erre a feladatra jelöljünk ki egy erre alkalmas kollégát, aki vezeti ezt a tevékenységet.
- * felhasználói fiókok - regisztráció és saját felhasználói fiók szükséges minden programhasználónak. A tanári fiók legyen különböző    jogosultságokkal ellátva, a tanulói fiókok korlátozottabbak ennél.
  * letölthető segédletek, tananyagok
 
 ### 3.3. Fizikai környezet:
