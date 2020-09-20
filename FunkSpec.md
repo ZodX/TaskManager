@@ -45,6 +45,10 @@ Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszp
 * Feladat frissítése/módosítása (Új cetli írása(új feladat))
 
 ## 5. Igényelt üzleti folyamatok
+* Feladat módosítása (Modify/Update task)
+* Feladat határidő megadása (Deadline)
+* Felhasználóbarát UI (Dark/Light mode + Színvak mode)
+* Feladatok prioritásának megadása (Prioritizing tasks)
 
 ## 6. Követelménylista
 * Könnyen üzemeltethető rendszer
