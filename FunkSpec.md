@@ -18,7 +18,7 @@ Az elkészített rendszerrel a felhasználó képes lesz:
 
 ### 1.2 A rendszer ***NEM*** céljai
 
-Az elkészített rendszerrel a felhassználó ***NEM*** lesz képes:
+Az elkészített rendszerrel a felhasználó ***NEM*** lesz képes:
 
 * több felhasználó adatait külön-külön kezelni
 * megtekinteni, hogy milyen akciókat hajtott végre az oldalon belül *(log)*
