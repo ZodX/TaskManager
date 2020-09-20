@@ -62,6 +62,14 @@ Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszp
 
 ## 7. Használati esetek
 
+### 7.1 Aktorok meghatározása
+
+Esetünkben az egyetlen aktorként a ***felhasználót*** sorolnám fel, mivel rendszerünkkel más nem tud interakcióba lépni.
+
+### 7.2 Használati eset diagram
+
+![Task Manager használati eset diagram](Use_Case_Diagram_for_TaskManager.png)
+
 ## 8. Megfeleltetés
 
 ## 9. Képernyőtervek
