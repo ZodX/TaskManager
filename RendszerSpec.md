@@ -52,6 +52,9 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 
 ### 3.6. Tesztterv:
 
+* Tesztelni kell az oldal összes funkcióját, ezzel biztosítva a helyes működést.
+* Tesztelni kell az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó számára.
+
 ### 3.7. Telepítési terv:
 
 ## 4. Mikor:
