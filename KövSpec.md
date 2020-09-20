@@ -32,4 +32,4 @@ A web felület szabványos eszközökkel készüljön, html, css, javascript, et
 
 ### 6. Követelménylista
 * Könnyen üzemeltethető rendszer
-* Reszponzív dizájn
+* Reszponzív design
