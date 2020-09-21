@@ -12,6 +12,18 @@
 
 ### 3.3. Fizikai környezet:
 
+A fejlesztett rendszerünk egy web applikáció lesz, tehát a frontend fejlesztéséhez a következő eszközöket fogjuk használni:
+
+* HTML
+* CSS (Bootstrap keretrendszer)
+
+A backendhez szükséges fejlesztői eszközök:
+
+* python3 (flask csomag)
+* SQL (flask-sqlalchemy csomag)
+
+A kész rendszert egy Heroku nevezetű, felhő alapú PaaS-ra(Platform as a Service) helyezzük el, ami szervert biztosít számára.
+
 ### 3.4. Adatbázis terv:
 
 A rendszerünk SQL adatbázisa egy táblát fog tartalmazni, ezáltal nem lesz kapcsolatban más táblákkal.
