@@ -34,7 +34,7 @@ Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák v
 
 ## 3. Vágyálom rendszer
 
-Egy könnyen átlátható és kezelhető weboldal, ahol könnyen megvalósíthatóak a folyamatok. 
+Egy könnyen átlátható és kezelhető weboldal, ahol könnyen megvalósíthatóak a folyamatok.
 Egyszerű szerkeszthetőség. Szeretném weboldalunk online kezelését is megoldani, hogy  távolról is láthassam az aktuális információkat.
 Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
 A weboldal könnyen üzemeltethető legyen. Elvárt a platformfüggetlenség.
@@ -51,7 +51,6 @@ Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszp
 ## 5. Igényelt üzleti folyamatok
 
 * Feladat módosítása (Modify/Update task)
-* Feladat határidő megadása (Deadline)
 * Felhasználóbarát UI (Dark/Light mode + Színvak mode)
 * Feladatok prioritásának megadása (Prioritizing tasks)
 
@@ -82,18 +81,19 @@ Esetünkben az egyetlen aktorként a ***felhasználót*** sorolnám fel, mivel r
 
 ## 9. Képernyőtervek
 
- * Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
- * A felhasználói felület legyen szellős és átlátható, jól különüljenek el egymástól az egyes funkciók, funkció csoportok.
- * A felületnek olyan kifejezéseket kell használnia, amelyek megfelelnek a rendszert legtöbbet használók tapasztalatainak.
- * A felületnek konzisztensnek kell lennie, azaz lehetőség szerint hasonló műveleteket hasonló módon kell realizálnia.
- * Legyen visszaállíható , a felületnek rendelkeznie kell olyan mechanizmusokkal , amelyek lehetővé teszik a felhasználók számára a hiba után történő visszaállítást.
- * A felületnek megfelelő interakciós lehetőségekkel kell rendelkeznie a
-   rendszer különféle felhasználói számára.
+* Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
+* A felhasználói felület legyen szellős és átlátható, jól különüljenek el egymástól az egyes funkciók, funkció csoportok.
+* A felületnek olyan kifejezéseket kell használnia, amelyek megfelelnek a rendszert legtöbbet használók tapasztalatainak.
+* A felületnek konzisztensnek kell lennie, azaz lehetőség szerint hasonló műveleteket hasonló módon kell realizálnia.
+* Legyen visszaállíható , a felületnek rendelkeznie kell olyan mechanizmusokkal , amelyek lehetővé teszik a felhasználók számára a hiba után történő visszaállítást.
+* A felületnek megfelelő interakciós lehetőségekkel kell rendelkeznie a
+rendszer különféle felhasználói számára.
 
-   ![kezdokepernyo](kezdokepernyo.jpg)
-   ![kepernyo](kepernyo.jpg)
+  ![kezdokepernyo](kezdokepernyo.jpg)
+  ![kepernyo](kepernyo.jpg)
 
 ## 10. Forgatókönyvek
+
 Elfelejtő Jenő a mindennapok során egyre több és több feladattal találja szembe magát és ez nagyon megerölteti pici agyát. Nem tudja , hogy mikor mit és hol kellene csinálnia , így gyakran csak a napot lopja. Próbálta már a teendőit kezére , cetlikre felírni. De a sok-sok cetlit nem bírta magával cipelni. Kétségbe esvén , nem tudván mit tegyen barátja Bará Tamás mutatott neki egy honlapot , ahol csupán internetre lesz szüksége és akár telefonról , táblagépről , számítógépről a napi teendőit bármikor elérheti. Teendőivel ha kész van nyugodtan törölheti és az összes kis "cetlit" a zsebében cipelheti. Ezután Elfelejtő Jenő fejéből teendő el nem vész és minden munkájával időben kész.
 
 ## 11. Fogalomszótár

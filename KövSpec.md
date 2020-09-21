@@ -25,7 +25,6 @@ Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszp
 ## 4. Igényelt üzleti folyamatok
 
 * Feladat módosítása (Modify/Update task)
-* Feladat határidő megadása (Deadline)
 * Felhasználóbarát UI (Dark/Light mode + Színvak mode)
 * Feladatok prioritásának megadása (Prioritizing tasks)
 
