@@ -16,7 +16,7 @@ A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a
 
 A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület segítségével nyomon követhesse az aktív feladatait, illetve, ha szeretné, könnyedén módosíthassa, vagy csoportokra bonthassa azokat. Továbbá, az eddigi megoldott, vagy meg nem oldott feladatokat egyszerűen vissza kereshesse.
 
-## 3. Hogyan (terv):
+## 3. Hogyan (terv): 
 
 ### 3.1. Projekt terv:
 
@@ -105,6 +105,20 @@ Python Flask segítségével weblap és adatbázis kontrollert készítünk.
 ### 3.7. Telepítési terv:
 
 A rendszer használatához a gépeken egyedül egy bönésző telepítésére van szükség, mivel a Task Managert egy Heroku nevezetű paltformra helyezzük el. Ez egy felhő alapú szolgáltatás, amin szerverünket működtethetjük.
+
+### 3.8. Követelmények:
+A weboldal legyen eléhető bármilyen platformról, könnyen olvasható és könnyen áttekinthető legyen.
+
+Törvényi előírás:
+*  Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében:
+    2001. évi CVIII. törvény az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szabályozza
+*  Egyszerűsített ellenőrző lista, kötelező honlap elemek
+    Szolgáltató név
+    Szolgáltató székhely, telephely, ennek hiányában lakcím
+    Szolgáltató elérhetőségei, így pl. a felhasználókkal való kapcsolattartásra használható e-mail cím 
+    Amennyiben a szolgáltató létrejöttét vagy tevékenysége gyakorlásának megkezdése nyilvántartásba való bejegyzéstől függ, a szolgáltatót a nyilvántartásba bejegyző bíróság vagy hatóság megnevezése és a nyilvántartásba vételi szám
+    Amennyiben a szolgáltató tevékenységének gyakorlása engedélyköteles, akkor ez a tény és az engedélyező hatóság megnevezése és elérhetőségi adatai, valamint az engedély száma
+
 
 ## 4. Mikor:
 
