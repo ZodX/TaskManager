@@ -7,7 +7,17 @@
 ## 3. Hogyan (terv):
 
 ### 3.0. Követelmények:
+A weboldal legyen eléhető bármilyen platformról, könnyen olvasható és könnyen áttekinthető legyen.
 
+Törvényi előírás:
+*  Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében:
+    2001. évi CVIII. törvény az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szabályozza
+*  Egyszerűsített ellenőrző lista, kötelező honlap elemek
+    Szolgáltató név
+    Szolgáltató székhely, telephely, ennek hiányában lakcím
+    Szolgáltató elérhetőségei, így pl. a felhasználókkal való kapcsolattartásra használható e-mail cím 
+    Amennyiben a szolgáltató létrejöttét vagy tevékenysége gyakorlásának megkezdése nyilvántartásba való bejegyzéstől függ, a szolgáltatót a nyilvántartásba bejegyző bíróság vagy hatóság megnevezése és a nyilvántartásba vételi szám
+    Amennyiben a szolgáltató tevékenységének gyakorlása engedélyköteles, akkor ez a tény és az engedélyező hatóság megnevezése és elérhetőségi adatai, valamint az engedély száma
 
 
 ### 3.1. Projekt terv:
