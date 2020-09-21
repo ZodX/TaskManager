@@ -1,7 +1,9 @@
 # Task Manager rendszerspecifikáció
 
 ## 1. Mit (rendszer):
+
 A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a funkcionális specifikáció alapján.
+
 * Rendszer használati esetek és lefutásai meghatározzák az oktató oldal funkcióinak meg valósulását.
 * Képernyő tervek: egyedi jól megkülönböztethető megjelenési stílus,egyszerű áttekinthető elemek: háttér, keret, aktuális cetli jelzése, Dark/Light mode megvalósítása.
 * Fizikai követelmények: Fizikai környezet: A weboldalnak olyan kialakítása, amely rugalmasan alkalmazkodik a különböző böngészőkhöz, annnak képernyőjének méretéhez. Ennek célja az, hogy egy optimális megjelenítést biztosítson a felhasználónak minden böngészésre alkalmas eszközön. például: desktot, moobil, laptop, tablet, egyéb eszközök. 
@@ -16,7 +18,7 @@ A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a
 
 A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület segítségével nyomon követhesse az aktív feladatait, illetve, ha szeretné, könnyedén módosíthassa, vagy csoportokra bonthassa azokat. Továbbá, az eddigi megoldott, vagy meg nem oldott feladatokat egyszerűen vissza kereshesse.
 
-## 3. Hogyan (terv): 
+## 3. Hogyan (terv):
 
 ### 3.1. Projekt terv:
 
@@ -53,10 +55,11 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 * **Weboldal kinézetének tesztlefedettsége teljes**
 
 ### 3.2. Funkcionális terv:
- * átláthatóság - ennek  megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva. Fontos az, hogy a programozók mindig értsék a munkatársaik logikáját. A kód legyen könnyen olvasható, hogy bárki be tudjon csatlakozni a munkába, és tudja folytatni azt.
- * javíthatóság - hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
- * felhasználóbarát - a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget. Erre a feladatra jelöljünk ki egy erre alkalmas kollégát, aki vezeti ezt a tevékenységet.
- * letölthető segédletek, tananyagok
+
+* átláthatóság - ennek  megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva. Fontos az, hogy a programozók mindig értsék a munkatársaik logikáját. A kód legyen könnyen olvasható, hogy bárki be tudjon csatlakozni a munkába, és tudja folytatni azt.
+* javíthatóság - hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
+* felhasználóbarát - a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget. Erre a feladatra jelöljünk ki egy erre alkalmas kollégát, aki vezeti ezt a tevékenységet.
+* letölthető segédletek, tananyagok
 
 ### 3.3. Fizikai környezet:
 
@@ -70,9 +73,13 @@ A backendhez szükséges fejlesztői eszközök:
 * python3 (flask csomag)
 * SQL (flask-sqlalchemy csomag)
 
-Teszteléshez:
+Frontend teszteléséhez:
 
 * Java + Selenium WebDriver + Galen keretrendszer
+
+Backend teszteléséhez:
+
+* python unittest keretrendszere
 
 A kész rendszert egy Heroku nevezetű, felhő alapú PaaS-ra(Platform as a Service) helyezzük el, ami szervert biztosít számára.
 
@@ -110,15 +117,14 @@ A rendszer használatához a gépeken egyedül egy bönésző telepítésére va
 A weboldal legyen eléhető bármilyen platformról, könnyen olvasható és könnyen áttekinthető legyen.
 
 Törvényi előírás:
-*  Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében:
+* Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében:
     2001. évi CVIII. törvény az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szabályozza
-*  Egyszerűsített ellenőrző lista, kötelező honlap elemek
+* Egyszerűsített ellenőrző lista, kötelező honlap elemek
     Szolgáltató név
     Szolgáltató székhely, telephely, ennek hiányában lakcím
     Szolgáltató elérhetőségei, így pl. a felhasználókkal való kapcsolattartásra használható e-mail cím 
     Amennyiben a szolgáltató létrejöttét vagy tevékenysége gyakorlásának megkezdése nyilvántartásba való bejegyzéstől függ, a szolgáltatót a nyilvántartásba bejegyző bíróság vagy hatóság megnevezése és a nyilvántartásba vételi szám
     Amennyiben a szolgáltató tevékenységének gyakorlása engedélyköteles, akkor ez a tény és az engedélyező hatóság megnevezése és elérhetőségi adatai, valamint az engedély száma
-
 
 ## 4. Mikor:
 
