@@ -64,6 +64,12 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 
 ### 3.5. Implementációs terv:
 
+Python Flask segítségével weblap és adatbázis kontrollert készítünk.
+
+#### 3.5.1. Üzleti logika osztályai:
+
+* Controller.py
+
 ### 3.6. Tesztterv:
 
 * Tesztelni kell az oldal összes funkcióját, ezzel biztosítva a helyes működést.
