@@ -67,7 +67,7 @@ Esetünkben az egyetlen aktorként a ***felhasználót*** sorolnám fel, mivel r
 
 ### 7.2 Használati eset diagram
 
-![Task Manager használati eset diagram](Use_Case_Diagram_for_TaskManager.png)
+![Task Manager használati eset diagram](src/Use_Case_Diagram_for_TaskManager.png)
 
 ## 8. Megfeleltetés
 
@@ -89,8 +89,8 @@ Esetünkben az egyetlen aktorként a ***felhasználót*** sorolnám fel, mivel r
 * A felületnek megfelelő interakciós lehetőségekkel kell rendelkeznie a
 rendszer különféle felhasználói számára.
 
-  ![kezdokepernyo](kezdokepernyo.jpg)
-  ![kepernyo](kepernyo.jpg)
+  ![kezdokepernyo](src/kezdokepernyo.jpg)
+  ![kepernyo](src/kepernyo.jpg)
 
 ## 10. Forgatókönyvek
 
