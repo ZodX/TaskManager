@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block pageTitle %}Feladatok{% endblock %}
+{% block subtitle %}Feladat(ok){% endblock %}
+{% block button %}Csoportok{% endblock %}
+{% block activity %}
+<br>
+    <div class="row">
+        <div class="col-md-12 text-center"><form action="/" method="post">
+            <input type="text" name="Name" id="content" placeholder="Feladat leírása">
+            <input type="number" name="Priority" id="priority" placeholder="Prioritás">
+            <input type="text" name="Group" id="group" placeholder="Csoport">
+            <input type="submit" value="Feladat hozzáadása">
+        </form></div>
+    </div>
+{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap h2">Feladat leírása</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Prioritás</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Csoport</div>
+    <div class="col-md-2 d-flex align-content-center flex-wrap text-center">Módosítás dátuma</div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-md-2 d-flex align-content-center flex-wrap"></div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap h4">Feladat #2</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">7</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Házimunka</div>
+    <div class="col-md-2 d-flex align-self-center flex-wrap">2020-09-22</div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap text-left">
+        <button type="button" class="btn btn-warning" style="margin-right: 2px;">Módosít</button>
+        <button type="button" class="btn btn-success" style="margin-right: 2px;">Kész</button>
+        <button type="button" class="btn btn-danger">Töröl</button>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-2 d-flex align-content-center flex-wrap"></div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap h4">Feladat #3</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">7</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Munkahely</div>
+    <div class="col-md-2 d-flex align-self-center flex-wrap">2020-09-22</div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap text-left">
+        <button type="button" class="btn btn-warning" style="margin-right: 2px;">Módosít</button>
+        <button type="button" class="btn btn-success" style="margin-right: 2px;">Kész</button>
+        <button type="button" class="btn btn-danger">Töröl</button>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-2 d-flex align-content-center flex-wrap"></div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap h4">Feladat #4</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">7</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Munkahely</div>
+    <div class="col-md-2 d-flex align-self-center flex-wrap">2020-09-22</div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap text-left">
+        <button type="button" class="btn btn-warning" style="margin-right: 2px;">Módosít</button>
+        <button type="button" class="btn btn-success" style="margin-right: 2px;">Kész</button>
+        <button type="button" class="btn btn-danger">Töröl</button>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-2 d-flex align-content-center flex-wrap"></div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap h4">Feladat #5</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">7</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Házimunka</div>
+    <div class="col-md-2 d-flex align-self-center flex-wrap">2020-09-22</div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap text-left">
+        <button type="button" class="btn btn-warning" style="margin-right: 2px;">Módosít</button>
+        <button type="button" class="btn btn-success" style="margin-right: 2px;">Kész</button>
+        <button type="button" class="btn btn-danger">Töröl</button>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-2 d-flex align-content-center flex-wrap"></div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap h4">Feladat #6</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">7</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Házimunka</div>
+    <div class="col-md-2 d-flex align-self-center flex-wrap">2020-09-22</div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap text-left">
+        <button type="button" class="btn btn-warning" style="margin-right: 2px;">Módosít</button>
+        <button type="button" class="btn btn-success" style="margin-right: 2px;">Kész</button>
+        <button type="button" class="btn btn-danger">Töröl</button>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-2 d-flex align-content-center flex-wrap"></div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap h4">Feladat #7</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">7</div>
+    <div class="col-md-1 d-flex align-content-center flex-wrap">Házimunka</div>
+    <div class="col-md-2 d-flex align-self-center flex-wrap">2020-09-22</div>
+    <div class="col-md-3 d-flex align-content-center flex-wrap text-left">
+        <button type="button" class="btn btn-warning" style="margin-right: 2px;">Módosít</button>
+        <button type="button" class="btn btn-success" style="margin-right: 2px;">Kész</button>
+        <button type="button" class="btn btn-danger">Töröl</button>
+    </div>
+</div>
+
+<hr>
+{% endblock %}
