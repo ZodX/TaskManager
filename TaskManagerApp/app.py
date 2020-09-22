@@ -1,6 +1,7 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from sqlalchemy import desc
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///test.db'
@@ -17,9 +18,27 @@ class Task(db.Model):
     def __repr__(self):
         return '<Task %r>' % self.id
 
-@app.route('/')
+@app.route('/', methods=['POST','GET'])
 def index():
-    return render_template('feladatok.html')
+    if request.method =='POST':
+
+        task_feladat = request.form['Feladat']
+        task_csoport = request.form['Csoport']
+        task_prioritas = request.form['Prioritas']
+        
+        uj_task = Task(feladat=task_feladat,csoport=task_csoport,prioritas=task_prioritas)
+
+        try:
+            db.session.add(uj_task)
+            db.session.commit()
+            return redirect('/')
+        except:
+            return "Hiba történt a feladat hozzáadása közben!"
+
+    else:
+        feladatok = Task.query.order_by(desc(Task.datum)).all()
+        return render_template('feladatok.html', feladatok=feladatok)
+
 
 if __name__ == '__main__':
     app.run(debug = True)
