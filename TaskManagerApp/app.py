@@ -39,6 +39,17 @@ def index():
         feladatok = Task.query.order_by(desc(Task.datum)).all()
         return render_template('feladatok.html', feladatok=feladatok)
 
+@app.route('/delete/<int:id>')
+def delete(id):
+    torlendo_feladat = Task.query.get_or_404(id)
+
+    try:
+        db.session.delete(torlendo_feladat)
+        db.session.commit()
+        return redirect('/')
+    except:
+        return 'Probléma adódott a feladat törlése közben.'
+
 
 if __name__ == '__main__':
     app.run(debug = True)
