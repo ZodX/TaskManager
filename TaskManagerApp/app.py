@@ -20,7 +20,7 @@ class Task(db.Model):
 
 @app.route('/', methods=['POST','GET'])
 def index():
-    if request.method =='POST':
+    if request.method =='POST' and request.form['Feladat'] != "":
 
         task_feladat = request.form['Feladat']
         task_csoport = request.form['Csoport']
