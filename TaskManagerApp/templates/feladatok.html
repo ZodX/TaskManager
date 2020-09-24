@@ -13,30 +13,52 @@
         </form></div>
     </div>
 {% endblock %}
-{% block content %}
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-3 d-flex align-content-center flex-wrap h2">Feladat leírása</div>
-    <div class="col-md-1 d-flex align-content-center flex-wrap">Prioritás</div>
-    <div class="col-md-1 d-flex align-content-center flex-wrap">Csoport</div>
-    <div class="col-md-2 d-flex align-content-center flex-wrap text-center">Módosítás dátuma</div>
+{% block optional %}
+<div class="row titleRow">
+    <div class="col-md-3 col-sm-3 d-flex align-content-center flex-wrap description">Feladat leírása</div>
+    <div class="col-md-1 col-sm-2 d-flex align-content-center flex-wrap">Prioritás</div>
+    <div class="col-md-2 col-sm-2 d-flex align-content-center flex-wrap">Csoport</div>
+    <div class="col-md-2 col-sm-2 d-flex align-content-center flex-wrap text-left">Módosítás dátuma</div>
 </div>
+{% endblock %}
+{% block content %}
+<style>
 
+    .titleRow > div, .listRow > div {
+        word-wrap: break-word;
+    }
+
+    .titleRow .description {
+        font-size: xx-large;
+    }
+
+    .listRow {
+        background-color: rgba(174, 175, 174, 0.500);
+        border-radius: 7px;
+    }
+
+    .listRow .description {
+        font-size: x-large;
+    }
+
+    .btn {
+        padding: 0.25em;
+    }
+</style>
 <br>
 {% for feladat in feladatok %}
-    <div class="row">
-        <div class="col-md-2 d-flex align-content-center flex-wrap"></div>
-        <div class="col-md-3 d-flex align-content-center flex-wrap h4">{{ feladat.feladat }}</div>
-        <div class="col-md-1 d-flex align-content-center flex-wrap">{{ feladat.prioritas }}</div>
-        <div class="col-md-1 d-flex align-content-center flex-wrap">{{ feladat.csoport }}</div>
-        <div class="col-md-2 d-flex align-self-center flex-wrap">{{ feladat.datum.date() }}</div>
-        <div class="col-md-3 d-flex align-content-center flex-wrap text-left">
+    <div class="row listRow">
+        <div class="col-md-3 col-sm-3 d-flex align-content-center flex-wrap description">{{ feladat.feladat }}</div>
+        <div class="col-md-1 col-sm-2 d-flex align-content-center flex-wrap">{{ feladat.prioritas }}</div>
+        <div class="col-md-2 col-sm-2 d-flex align-content-center flex-wrap">{{ feladat.csoport }}</div>
+        <div class="col-md-2 col-sm-2 d-flex align-content-center flex-wrap">{{ feladat.datum.date() }}</div>
+        <div class="col-md-4 col-sm-3 d-flex align-content-center flex-wrap">
             <button type="button" class="btn btn-warning" style="margin-right: 2px;">Módosít</button>
             <button type="button" class="btn btn-success" style="margin-right: 2px;">Kész</button>
             <button type="button" class="btn btn-danger" onclick="location.href='/delete/{{feladat.id}}'">Töröl</button>
         </div>
     </div>
 
-    <hr>
+    <br>
 {% endfor %}
 {% endblock %}
