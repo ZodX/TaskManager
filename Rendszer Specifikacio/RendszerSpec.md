@@ -37,11 +37,6 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 
 #### 3.1.3. Ütemterv:
 
-* **2020.09.25.**: Funkcionális működés.
-* **2020.09.28.**: Tesztelés befejezése
-
-#### 3.1.4. Mérföldkövek:
-
 * **Új feladat létrehozása** funkció működik
 * **Feladat törlése** funkció működik
 * **Feladat módosítása** funkció működik
@@ -53,6 +48,12 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 * **Minden kívánt funkció megvalósítva**
 * **Funkciók tesztlefedettsége teljes**
 * **Weboldal kinézetének tesztlefedettsége teljes**
+
+#### 3.1.4. Mérföldkövek:
+
+* **2020.09.25.**: Funkcionális működés.
+* **2020.09.28.**: Tesztelés befejezése
+
 
 ### 3.2. Funkcionális terv:
 
