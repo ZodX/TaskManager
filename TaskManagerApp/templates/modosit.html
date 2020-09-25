@@ -17,11 +17,6 @@
             background-color: #495C50;
         }
 
-        ::-webkit-scrollbar {
-            width: 0px;
-            background: transparent;
-        }    
-
         #outer {
             height: 90%;
             margin-top: 2.5%;
@@ -30,72 +25,33 @@
             background-color: #49F585;
             box-shadow: 10px 10px 29px 2px #2A662E;
             overflow: hidden;
-        }
-
-        #inner {
-            overflow-y: scroll;
-        }
-
-        #topOuter {
-            padding-top: 1em;
             display: flex;
-            width: 100%;
-            height: 40%;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
         }
 
-        #top {
-            padding: 0;
-            width: 100%;
-            margin-bottom: 1em;
+        #innerContainer {
+            display: block;
+            text-align: center;
         }
 
-        #bot {
-            padding-bottom: 7.5em;
-            height: 60%;
-            overflow: scroll;
+        #title {
+            font-size: xx-large;
         }
     </style>
   </head>
   <body>
     <div class="container" id="outer">
-        <div id="topOuter">
-            <div id="top">
-                <div class="row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6 text-center" style="margin-top: 1em;">
-                        <h1>Task Manager</h1>
-                    </div>
-                    <div class="col-md-3"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6 text-center">
-                        {% block subtitle %}{% endblock %}
-                    </div>
-                    <div class="col-md-3"></div>
-                </div>
-    
-                <div class="row" style="padding-top: 0.5em;">
-                    {% block button %}{% endblock %}
-                </div>
-    
-                {% block activity %}{% endblock %}
-    
-                <hr class="col-md-12">
-            </div>
+        <div id="innerContainer">
+            <p id="title">Feladat módosítása</p>
+            <div class="col-md-12 text-center"><form action="/" method="post">
+                <input type="text" name="Feladat" id="feladat" placeholder="Feladat leírása">
+                <input type="number" name="Prioritas" id="prioritas" placeholder="Prioritás">
+                <input type="text" name="Csoport" id="csoport" placeholder="Csoport">
+                <input type="submit" value="Feladat módosítása">
+            </form></div>
         </div>
-
-        {% block optional %}{% endblock %}
-        
-        <div id="bot">
-            <div class="container" id="inner">
-                {% block content %}{% endblock %}
-            </div>
-        </div>
-    </div>
-        
+    </div>  
 
     <div style="height:400px"></div>
 
