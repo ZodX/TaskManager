@@ -37,11 +37,6 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 
 #### 3.1.3. Ütemterv:
 
-* **2020.09.25.**: Funkcionális működés.
-* **2020.09.28.**: Tesztelés befejezése
-
-#### 3.1.4. Mérföldkövek:
-
 * **Új feladat létrehozása** funkció működik
 * **Feladat törlése** funkció működik
 * **Feladat módosítása** funkció működik
@@ -54,12 +49,17 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 * **Funkciók tesztlefedettsége teljes**
 * **Weboldal kinézetének tesztlefedettsége teljes**
 
+#### 3.1.4. Mérföldkövek:
+
+* **2020.09.25.**: Funkcionális működés.
+* **2020.09.28.**: Tesztelés befejezése
+
+
 ### 3.2. Funkcionális terv:
 
-* átláthatóság - ennek  megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva. Fontos az, hogy a programozók mindig értsék a munkatársaik logikáját. A kód legyen könnyen olvasható, hogy bárki be tudjon csatlakozni a munkába, és tudja folytatni azt.
+* átláthatóság - ennek  megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva.
 * javíthatóság - hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
-* felhasználóbarát - a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget. Erre a feladatra jelöljünk ki egy erre alkalmas kollégát, aki vezeti ezt a tevékenységet.
-* letölthető segédletek, tananyagok
+* felhasználóbarát - a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget. (light/dark/colorblind mode)
 
 ### 3.3. Fizikai környezet:
 
@@ -80,6 +80,12 @@ Frontend teszteléséhez:
 Backend teszteléséhez:
 
 * python unittest keretrendszere
+
+Az alkalmazás futtatására alkalmas böngészők: 
+
+* Firefox
+* Google Chrome
+* Opera  
 
 A kész rendszert egy Heroku nevezetű, felhő alapú PaaS-ra(Platform as a Service) helyezzük el, ami szervert biztosít számára.
 
@@ -106,15 +112,30 @@ Python Flask segítségével weblap és adatbázis kontrollert készítünk.
 
 ### 3.6. Tesztterv:
 
-* Tesztelni kell az oldal összes funkcióját, ezzel biztosítva a helyes működést.
-* Tesztelni kell az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó számára.
+Tesztelni kell az oldal összes funkcióját, ezzel biztosítva a helyes működést: 
+
+* Új feladat hozzáadása.
+* Feladat módosítása.
+* Feladat törlése.
+* Prioritási sorrend.
+
+Tesztelni kell az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó számára:
+
+* Az oldal reszponzívan jelenik meg különböző eszközökön.
+* Az oldal egyszerüen átlátható.
+* Az oldal könnyen kezelhető átlagfelhasználók számára.
 
 ### 3.7. Telepítési terv:
 
 A rendszer használatához a gépeken egyedül egy bönésző telepítésére van szükség, mivel a Task Managert egy Heroku nevezetű paltformra helyezzük el. Ez egy felhő alapú szolgáltatás, amin szerverünket működtethetjük.
 
 ### 3.8. Követelmények:
-A weboldal legyen eléhető bármilyen platformról, könnyen olvasható és könnyen áttekinthető legyen.
+
+A weboldal könnyen olvasható és könnyen áttekinthető legyen az egyszerű felhasználó számára.
+Bármely internet hozzáféréssel rendelkező eszközről eléhető legyen.
+A weboldal legyen reszponzív , rugalmasan alkalmazkodjon különböző böngészők képernyőjének méretéhez.
+Ezzel optimális megjelenést biztosít a felhasználónak minden eszközön. Pl.: mobil , tablet , pc , stb.
+A weboldal kezelése könnyű legyen az átlagfelhasználó számára is.
 
 Törvényi előírás:
 * Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében:
