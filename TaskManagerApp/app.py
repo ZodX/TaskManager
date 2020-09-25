@@ -50,6 +50,21 @@ def delete(id):
     except:
         return 'Probléma adódott a feladat törlése közben.'
 
+@app.route('/update/<int:id>', methods=['POST', 'GET'])
+def update(id):
+    feladat = Task.query.get_or_404(id)
+
+    if request.method == 'POST' and request.form['Feladat'] != "":
+        feladat.feladat = request.form['Feladat']
+
+        try:
+            db.session.commit()
+            return redirect('/')
+        except:
+            return 'Probléma történt a feladat módosítása közben.'
+
+    else:
+        return render_template('modosit.html', feladat=feladat)
 
 if __name__ == '__main__':
     app.run(debug = True)
