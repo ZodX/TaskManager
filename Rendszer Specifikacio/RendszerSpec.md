@@ -112,8 +112,18 @@ Python Flask segítségével weblap és adatbázis kontrollert készítünk.
 
 ### 3.6. Tesztterv:
 
-* Tesztelni kell az oldal összes funkcióját, ezzel biztosítva a helyes működést.
-* Tesztelni kell az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó számára.
+Tesztelni kell az oldal összes funkcióját, ezzel biztosítva a helyes működést: 
+
+* Új feladat hozzáadása.
+* Feladat módosítása.
+* Feladat törlése.
+* Prioritási sorrend.
+
+Tesztelni kell az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó számára:
+
+* Az oldal reszponzívan jelenik meg különböző eszközökön.
+* Az oldal egyszerüen átlátható.
+* Az oldal könnyen kezelhető átlagfelhasználók számára.
 
 ### 3.7. Telepítési terv:
 
