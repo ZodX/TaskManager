@@ -24,7 +24,10 @@ def index():
 
         task_feladat = request.form['Feladat']
         task_csoport = request.form['Csoport']
-        task_prioritas = request.form['Prioritas']
+        if not request.form['Prioritas']:
+            task_prioritas = 5
+        else:
+            task_prioritas = request.form['Prioritas']
         
         uj_task = Task(feladat=task_feladat,csoport=task_csoport,prioritas=task_prioritas)
 
