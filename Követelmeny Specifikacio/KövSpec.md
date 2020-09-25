@@ -4,7 +4,12 @@
 
 Egyre több a felhalmozódó feladat számomra, amiket egyre nehezebb nyomon követni.
 Jelenleg egy táblán külön csoportokra bontva, azon belül cetlikre írom a feladataimat.
-Ez a módszer nem a legoptimálisabb, macerás átrendezni stb... (A matricák veszítenek a tapadósságból ==> sok szemét  + költség)
+Ez a módszer nem a legoptimálisabb, macerás átrendezni.
+A cetliket nem tudom mindenhová magammal cipelni, ezért a feladataimat nem tudom bárhol, bármikor megnézni.
+A táblára felragasztott cetlit nehezen átláthatóak, gyakran fordul elő olyan, hogy egy-kettő elkerüli a figyelmemet.
+Ilyenkor elfelejtem elvégezni az adott cetlire írt feladatot.
+A cetliknek használt papír drága és idővel veszít a ragadóságából és ilyenkor előfordul, hogy leesnek a tábláról a cetlik.
+A cetlik nem módosíthatóak, ha egy feladatot módosítani szeretnék úgy tudom megtenni, hogy leveszem a tábláról és helyére egy új cetlit ragasztok.
 
 ## 2. Vágyálom rendszer
 
