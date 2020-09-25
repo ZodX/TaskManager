@@ -120,7 +120,12 @@ Python Flask segítségével weblap és adatbázis kontrollert készítünk.
 A rendszer használatához a gépeken egyedül egy bönésző telepítésére van szükség, mivel a Task Managert egy Heroku nevezetű paltformra helyezzük el. Ez egy felhő alapú szolgáltatás, amin szerverünket működtethetjük.
 
 ### 3.8. Követelmények:
-A weboldal legyen eléhető bármilyen platformról, könnyen olvasható és könnyen áttekinthető legyen.
+
+A weboldal könnyen olvasható és könnyen áttekinthető legyen az egyszerű felhasználó számára.
+Bármely internet hozzáféréssel rendelkező eszközről eléhető legyen.
+A weboldal legyen reszponzív , rugalmasan alkalmazkodjon különböző böngészők képernyőjének méretéhez.
+Ezzel optimális megjelenést biztosít a felhasználónak minden eszközön. Pl.: mobil , tablet , pc , stb.
+A weboldal kezelése könnyű legyen az átlagfelhasználó számára is.
 
 Törvényi előírás:
 * Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében:
