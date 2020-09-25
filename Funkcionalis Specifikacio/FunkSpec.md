@@ -28,41 +28,42 @@ Az elkészített rendszerrel a felhasználó ***NEM*** lesz képes:
 
 ## 2. Jelenlegi helyzet
 
-* Jelenleg rengeteg a felhamozódó feladat számomra, ezeket nyomon követni egyre nehezebb, átláthatatlan az egész számomra.
-* Pillanatnyilag, a helyzet az, hogy külön csoportkra bontom a feladataimat, és ezeket egy cetlire írom, ami nem a 
-* legkényelmesebb megoldás.
-* Ez a helyzet, nem a legoptimálisabb, mivel az átrendezése időigényes, sok problémával jár, illetve a matricák
-* veszítenek a   tapadósságból, ezzel sok szemetet generálunk, valamint több lesz a költségünk is. 
+Jelenleg rengeteg a felhamozódó feladat számomra, ezeket nyomon követni egyre nehezebb, átláthatatlan az egész számomra.
+Pillanatnyilag, a helyzet az, hogy külön csoportkra bontom a feladataimat, és ezeket egy cetlire írom, ami nem a legkényelmesebb megoldás.
+Ez a helyzet, nem a legoptimálisabb, mivel az átrendezése időigényes, sok problémával jár, illetve a matricák
+veszítenek a tapadósságból, ezzel sok szemetet generálunk, valamint több lesz a költségünk is. 
+A cetlieimet sajnos nem tudom magammal vinni, mivel csak az otthoni táblán érhetőek el, ez megnehezíti a teendőim elvégzését, észbentartását.
+
 
 ## 3. Vágyálom rendszer
 
-* A célunk egy könnyen átlátható, és kezelhető weboldal, ezzel a mindennapi folyamatokat szeretnénk leegyszerűsíteni.
-* A terv egy egyszerűen szerkeszthető weboldal. Szeretnénk továbbá azt is elérni, hogy a weboldal online is kezelhető legyen,
-* ezzel  elérni azt, hogy  távolról is elérhetőek legyenek az aktuális információk. Nem elfogadható csak Microsoft Windows operációs
-* rendszeren üzemeltethető rendszerre vonatkozó javaslat. A weboldallal azt szeretnénk elérni, hogy könnyen üzelemtethető legyen, és
-* elvárt a platformfüggetlenség is.
-* Az online megjelenésnél fontos az, hogy lehetőleg az össze erre alkalmas eszközön elérhető legyen (mobil telefon, tablet), 
-* reszponzív felülettel (rugalmasan alkalmazkodik a különböző böngészőkhöz).
+A célunk egy könnyen átlátható, és kezelhető weboldal, ezzel a mindennapi folyamatokat szeretnénk leegyszerűsíteni.
+A terv egy egyszerűen szerkeszthető weboldal. Szeretnénk továbbá azt is elérni, hogy a weboldal online is kezelhető legyen,
+ezzel  elérni azt, hogy  távolról is elérhetőek legyenek az aktuális információk. Nem elfogadható csak Microsoft Windows operációs
+rendszeren üzemeltethető rendszerre vonatkozó javaslat. A weboldallal azt szeretnénk elérni, hogy könnyen üzelemtethető legyen, és
+elvárt a platformfüggetlenség is.
+Az online megjelenésnél fontos az, hogy lehetőleg az össze erre alkalmas eszközön elérhető legyen (mobil telefon, tablet), 
+reszponzív felülettel (rugalmasan alkalmazkodik a különböző böngészőkhöz).
 
 ## 4. Jelenlegi üzleti folyamatok
 
-* Új feladat hozzáadása (Cetlire írás -> cetli letépése -> cetli táblára ragasztása)
-* Feladat törlése (Cetli levétele a tábláról -> cetli kukába dobása)
-* Feladatok csoportosítása (Cetlik egy adott helyre csoportosítása a táblán)
-* Feladat késznek nyilvánítása (Cetli ‘kész’ csoportba helyezése)
-* Feladat frissítése/módosítása (Új cetli írása(új feladat))
+* Új feladat hozzáadása: (Cetlire írás -> cetli letépése -> cetli táblára ragasztása)
+* Feladat törlése: (Cetli levétele a tábláról -> cetli kukába dobása)
+* Feladatok csoportosítása: (Cetlik egy adott helyre csoportosítása a táblán)
+* Feladat késznek nyilvánítása: (Cetli ‘kész’ csoportba helyezése)
+* Feladat frissítése/módosítása: (Új cetli írása(új feladat)
 
 ## 5. Igényelt üzleti folyamatok
 
-* Feladat módosítása (Modify/Update task)
-* Felhasználóbarát UI (Dark/Light mode + Színvak mode)
-* Feladatok prioritásának megadása (Prioritizing tasks)
+* Feladat módosítása: (Feladat kiválasztása -> új modosítótt érték megadása -> mentés)
+* Felhasználóbarát UI: (Dark/Light mode + Színvak mode) (A felhasználó által megfelelő mód kiválasztása -> mentés)
+* Feladatok prioritásának megadása: (Feladat kiválasztása -> fontossági sorrend eldöntése -> mentés)
 
 ## 6. Követelménylista
 
 * Könnyen üzemeltethető rendszer.
 * Reszponzív design. A célja, hogy a weboldalunk rugalmasan alkalmazkodjon a különböző böngészők képernyőjének méretéhez, 
-* így eléri azt, hogy egy optimális megjelenést biztosítson a felhasználónak minden eszközön amely képes böngészésre.
+így eléri azt, hogy egy optimális megjelenést biztosítson a felhasználónak minden eszközön amely képes böngészésre.
 
 ## 7. Használati esetek
 
