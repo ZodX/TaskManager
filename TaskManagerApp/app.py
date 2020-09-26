@@ -69,5 +69,16 @@ def update(id):
     else:
         return render_template('modosit.html', feladat=feladat)
 
+@app.route('/done/<int:id>')
+def done(id):
+    kesz_feladat = Task.query.get_or_404(id)
+    kesz_feladat.kesz = True
+
+    try:
+        db.session.commit()
+        return redirect('/')
+    except:
+        return 'Hiba történt a feladat késznek nyilvánítása közben.'
+
 if __name__ == '__main__':
     app.run(debug = True)
