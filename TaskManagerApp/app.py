@@ -39,8 +39,14 @@ def index():
             return "Hiba történt a feladat hozzáadása közben!"
 
     else:
-        feladatok = Task.query.order_by(desc(Task.datum)).all()
+        feladatok = Task.query.filter_by(kesz=False).order_by(desc(Task.datum)).all()
         return render_template('feladatok.html', feladatok=feladatok)
+
+@app.route('/done_list')
+def done_list():
+    
+    feladatok = Task.query.filter_by(kesz=True).order_by(desc(Task.datum)).all()
+    return render_template('feladatok.html', feladatok=feladatok)    
 
 @app.route('/delete/<int:id>')
 def delete(id):
