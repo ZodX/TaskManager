@@ -46,8 +46,8 @@
             <p id="title">Feladat módosítása</p>
             <div class="col-md-12 text-center"><form action="/update/{{feladat.id}}" method="post">
                 <input type="text" name="Feladat" id="feladat" value="{{ feladat.feladat }}">
-                <input type="number" name="Prioritas" id="prioritas" placeholder="Prioritás">
-                <input type="text" name="Csoport" id="csoport" placeholder="Csoport">
+                <input type="number" name="Prioritas" id="prioritas" value="{{ feladat.prioritas }}">
+                <input type="text" name="Csoport" id="csoport" value="{{ feladat.csoport }}">
                 <input type="submit" value="Feladat módosítása">
             </form></div>
         </div>
