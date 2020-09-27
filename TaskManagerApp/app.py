@@ -9,9 +9,9 @@ db = SQLAlchemy(app)
 
 class Task(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    feladat = db.Column(db.String(200), nullable=False)
+    feladat = db.Column(db.String(200))
     csoport = db.Column(db.String(100))
-    prioritas = db.Column(db.Integer, default=5)
+    prioritas = db.Column(db.Integer)
     datum = db.Column(db.DateTime, default=datetime.utcnow)
     kesz = db.Column(db.Boolean, default=False)
 
