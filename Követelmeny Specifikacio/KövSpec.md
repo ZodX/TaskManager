@@ -41,3 +41,8 @@ A web felület szabványos eszközökkel készüljön, html, css, javascript, et
 
 * Könnyen üzemeltethető rendszer
 * Reszponzív design
+* Letisztult, átlátható felület
+* Felhasználóbarát UI
+* Könnyű kezelhetőség 
+
+
