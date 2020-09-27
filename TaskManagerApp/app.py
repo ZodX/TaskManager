@@ -24,7 +24,10 @@ def index():
 
         task_feladat = request.form['Feladat']
         task_csoport = request.form['Csoport']
-        task_prioritas = request.form['Prioritas']
+        if not request.form['Prioritas']:
+            task_prioritas = 5
+        else:
+            task_prioritas = request.form['Prioritas']
         
         uj_task = Task(feladat=task_feladat,csoport=task_csoport,prioritas=task_prioritas)
 
@@ -36,8 +39,14 @@ def index():
             return "Hiba történt a feladat hozzáadása közben!"
 
     else:
-        feladatok = Task.query.order_by(desc(Task.datum)).all()
+        feladatok = Task.query.filter_by(kesz=False).order_by(desc(Task.datum)).all()
         return render_template('feladatok.html', feladatok=feladatok)
+
+@app.route('/done_list')
+def done_list():
+    
+    feladatok = Task.query.filter_by(kesz=True).order_by(desc(Task.datum)).all()
+    return render_template('feladatok.html', feladatok=feladatok)    
 
 @app.route('/delete/<int:id>')
 def delete(id):
@@ -50,6 +59,32 @@ def delete(id):
     except:
         return 'Probléma adódott a feladat törlése közben.'
 
+@app.route('/update/<int:id>', methods=['POST', 'GET'])
+def update(id):
+    feladat = Task.query.get_or_404(id)
+
+    if request.method == 'POST' and request.form['Feladat'] != "":
+        feladat.feladat = request.form['Feladat']
+
+        try:
+            db.session.commit()
+            return redirect('/')
+        except:
+            return 'Probléma történt a feladat módosítása közben.'
+
+    else:
+        return render_template('modosit.html', feladat=feladat)
+
+@app.route('/done/<int:id>')
+def done(id):
+    kesz_feladat = Task.query.get_or_404(id)
+    kesz_feladat.kesz = True
+
+    try:
+        db.session.commit()
+        return redirect('/')
+    except:
+        return 'Hiba történt a feladat késznek nyilvánítása közben.'
 
 if __name__ == '__main__':
     app.run(debug = True)
