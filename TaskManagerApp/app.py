@@ -50,6 +50,15 @@ def index():
         csoportok=Task.query.group_by('csoport')
         return render_template('index.html', csoportok=csoportok)
 
+@app.route('/group/<string:csoport>', methods=['POST','GET'])
+def group_list(csoport):
+    if csoport == 'all':
+        feladatok = Task.query.order_by(desc(Task.datum)).all()
+        return render_template('feladatok.html', feladatok=feladatok)
+    else:
+        feladatok = Task.query.filter_by(csoport=csoport).order_by(desc(Task.datum)).all()
+        return render_template('feladatok.html', feladatok=feladatok)
+
 @app.route('/done_list')
 def done_list():
     
