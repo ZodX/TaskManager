@@ -3,11 +3,10 @@
 {% block subtitle %}Csoport(ok){% endblock %}
 {% block button %}
 <div class="col-md-4 col-xs-4"></div>
-<div class="col-md-2 col-xs-4 text-right" style="padding: 0;margin-right: 1px;">
-  <button type="button" class="btn btn-success">Összes feladat</button>
-</div>
-<div class="col-md-2 col-xs-4 text-left" style="padding: 0;margin-left: 1px;">
-  <button type="button" class="btn btn-success">Kész feladatok</button>
+<div class="btn-container col-md-4 col-xs-4 col-4" style="display: flex; border: thin solid red; justify-content: center; align-items: center;">
+  <button type="button" class="btn btn-success" onclick="location.href='/done_list'" style="margin-left: 1px;">Feladatok</button>
+  <button type="button" class="btn btn-success" style="margin-left: 1px;">Összes feladat</button>
+  <button type="button" class="btn btn-success" onclick="location.href='/done_list'" style="margin-left: 1px;">Kész feladatok</button>
 </div>
 <div class="col-md-4 col-xs-4"></div>
 {% endblock %}
