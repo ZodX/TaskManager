@@ -20,15 +20,20 @@ class Task(db.Model):
 
 @app.route('/', methods=['POST','GET'])
 def index():
-    if request.method =='POST' and request.form['Feladat'] != "":
+    csoport_szam = Task.query.group_by('csoport').count()
 
+    if request.method =='POST' and request.form['Feladat'] != "" and request.form['Csoport'] != "":
         task_feladat = request.form['Feladat']
         task_csoport = request.form['Csoport']
         if not request.form['Prioritas']:
             task_prioritas = 5
+        elif int(request.form['Prioritas']) < 1:
+            task_prioritas = 1
+        elif int(request.form['Prioritas']) > 10:
+            task_prioritas = 10
         else:
             task_prioritas = request.form['Prioritas']
-        
+
         uj_task = Task(feladat=task_feladat,csoport=task_csoport,prioritas=task_prioritas)
 
         try:
@@ -38,8 +43,20 @@ def index():
         except:
             return "Hiba történt a feladat hozzáadása közben!"
 
-    else:
+    if csoport_szam < 2:
         feladatok = Task.query.filter_by(kesz=False).order_by(desc(Task.datum)).all()
+        return render_template('feladatok.html', feladatok=feladatok)
+    else:
+        csoportok=Task.query.group_by('csoport')
+        return render_template('index.html', csoportok=csoportok)
+
+@app.route('/group/<string:csoport>', methods=['POST','GET'])
+def group_list(csoport):
+    if csoport == 'all':
+        feladatok = Task.query.order_by(desc(Task.datum)).all()
+        return render_template('feladatok.html', feladatok=feladatok)
+    else:
+        feladatok = Task.query.filter_by(csoport=csoport).order_by(desc(Task.datum)).all()
         return render_template('feladatok.html', feladatok=feladatok)
 
 @app.route('/done_list')
@@ -63,8 +80,18 @@ def delete(id):
 def update(id):
     feladat = Task.query.get_or_404(id)
 
-    if request.method == 'POST' and request.form['Feladat'] != "":
+    if request.method == 'POST' and request.form['Feladat'] != "" and request.form['Csoport'] != "":
         feladat.feladat = request.form['Feladat']
+        feladat.csoport = request.form['Csoport']
+
+        if not request.form['Prioritas']:
+            feladat.prioritas = 5
+        elif int(request.form['Prioritas']) < 1:
+            feladat.prioritas = 1
+        elif int(request.form['Prioritas']) > 10:
+            feladat.prioritas = 10
+        else:
+            feladat.prioritas = request.form['Prioritas']
 
         try:
             db.session.commit()

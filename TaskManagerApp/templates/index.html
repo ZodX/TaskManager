@@ -4,7 +4,7 @@
 {% block button %}
 <div class="col-md-4 col-xs-4"></div>
 <div class="btn-container col-md-4 col-xs-4 col-4" style="display: flex; justify-content: center; align-items: center;">
-  <button type="button" class="btn btn-success" style="margin-left: 1px;">Összes feladat</button>
+  <button type="button" class="btn btn-success" onclick="location.href='/group/all'" style="margin-left: 1px;">Összes feladat</button>
   <button type="button" class="btn btn-success" onclick="location.href='/done_list'" style="margin-left: 1px;">Kész feladatok</button>
 </div>
 <div class="col-md-4 col-xs-4"></div>
@@ -12,111 +12,22 @@
 
 {% endblock %}
 {% block content %}
+{% for csoport in csoportok %}
 <div class="row">
   <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
+  <div class="col-md-8 text-center align-middle">
+      <table style="width: 100%;">
+          <tbody>
+            <tr>
+              <td class="align-middle h3 text-left">{{ csoport.csoport }}</td>
+              <td><button type="button" class="btn btn-primary"onclick="location.href='/group/{{csoport.csoport}}'">Listázás</button></td>
+            </tr>
+          </tbody>
+      </table>
   </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
+  <div class="col-md-2"></div>
 </div>
 
 <hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsopoaaaaart #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
-
-<div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-6 text-center align-middle">
-      <div class="align-middle h3 text-left">Feladatcsoport #1</div>
-  </div>
-  <div class="col-md-4">
-    <button type="button" class="btn btn-success">Listázás</button>
-  </div>
-</div>
-
-<hr class="col-md-8">
+{% endfor %}
 {% endblock %}
