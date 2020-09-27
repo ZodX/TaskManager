@@ -56,15 +56,129 @@
             height: 50%;
             overflow: scroll;
         }
+
+        svg {
+            transition: .4s;
+            margin-top: 0.25em;
+        }
+
+        svg:hover {
+            color: red;
+            transition: .4s;
+            cursor: pointer;
+        }
     </style>
+<script>
+    function lightMode() {
+        var body = document.getElementsByTagName("body")[0];
+        var container = document.getElementById("outer");
+        var btnSuccess = document.getElementsByClassName("btn-success");
+        var btnWarning = document.getElementsByClassName("btn-warning");
+        var btnDanger = document.getElementsByClassName("btn-danger");
+        var listRows = document.getElementsByClassName("listRow");
+
+        body.style.backgroundColor = "#495C50";
+        body.style.color = "black";
+        
+        container.style.backgroundColor = "#49F585";
+        
+        for (let i = 0; i < listRows.length; i++) {
+            listRows[i].style.backgroundColor = "rgba(174, 175, 174, 0.500)";
+            listRows[i].style.color = "black";
+        }
+
+        for (let i = 0; i < btnSuccess.length; i++) {
+            btnSuccess[i].style.backgroundColor = "#28a745";
+            btnSuccess[i].style.color = "white";
+        }
+
+        for (let i = 0; i < btnWarning.length; i++) {
+            btnWarning[i].style.backgroundColor = "#ffc107";
+            btnWarning[i].style.color = "#212529";
+        }
+
+        for (let i = 0; i < btnDanger.length; i++) {
+            btnDanger[i].style.backgroundColor = "#dc3545";
+            btnDanger[i].style.color = "white";
+        }
+    }
+
+    function colorBlind() {
+        var body = document.getElementsByTagName("body")[0];
+        var container = document.getElementById("outer");
+        var btnSuccess = document.getElementsByClassName("btn-success");
+        var btnWarning = document.getElementsByClassName("btn-warning");
+        var btnDanger = document.getElementsByClassName("btn-danger");
+        var listRows = document.getElementsByClassName("listRow");
+
+        body.style.backgroundColor = "#495C50";
+        body.style.color = "black";
+        
+        container.style.backgroundColor = "#006cac";
+        
+        for (let i = 0; i < listRows.length; i++) {
+            listRows[i].style.backgroundColor = "rgba(174, 175, 174, 0.500)";
+            listRows[i].style.color = "black";
+        }
+
+        for (let i = 0; i < btnSuccess.length; i++) {
+            btnSuccess[i].style.backgroundColor = "#a2c9eb";
+            btnSuccess[i].style.color = "black";
+        }
+
+        for (let i = 0; i < btnWarning.length; i++) {
+            btnWarning[i].style.backgroundColor = "#ffbc72";
+            btnWarning[i].style.color = "#212529";
+        }
+
+        for (let i = 0; i < btnDanger.length; i++) {
+            btnDanger[i].style.backgroundColor = "#c55202";
+            btnDanger[i].style.color = "white";
+        }
+    }
+
+    function darkMode() {
+        var body = document.getElementsByTagName("body")[0];
+        var container = document.getElementById("outer");
+        var btnSuccess = document.getElementsByClassName("btn-success");
+        var btnWarning = document.getElementsByClassName("btn-warning");
+        var btnDanger = document.getElementsByClassName("btn-danger");
+        var listRows = document.getElementsByClassName("listRow");
+
+        body.style.backgroundColor = "#306844";
+        body.style.color = "#8ab096";
+        
+        container.style.backgroundColor = "#182c25";
+        
+        for (let i = 0; i < listRows.length; i++) {
+            listRows[i].style.backgroundColor = "rgba(174, 175, 174, 0.500)";
+            listRows[i].style.color = "black";
+        }
+
+        for (let i = 0; i < btnSuccess.length; i++) {
+            btnSuccess[i].style.backgroundColor = "#28a745";
+            btnSuccess[i].style.color = "black";
+        }
+
+        for (let i = 0; i < btnWarning.length; i++) {
+            btnWarning[i].style.backgroundColor = "#ffc107";
+            btnWarning[i].style.color = "#212529";
+        }
+
+        for (let i = 0; i < btnDanger.length; i++) {
+            btnDanger[i].style.backgroundColor = "#dc3545";
+            btnDanger[i].style.color = "white";
+        }
+    }
+</script>
   </head>
   <body>
-    <div class="container" id="outer">
-        <div id="topOuter">
-            <div id="top">
-                <div class="row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6 text-center" style="margin-top: 1em;">
+      <div class="container" id="outer">
+          <div id="topOuter">
+              <div id="top">
+                  <div class="row">
+                      <div class="col-md-3"></div>
+                      <div class="col-md-6 text-center" style="margin-top: 1em;">
                         <h1>Task Manager</h1>
                     </div>
                     <div class="col-md-3"></div>
@@ -76,10 +190,26 @@
                     </div>
                     <div class="col-md-3"></div>
                 </div>
-    
+                
                 <div class="row" style="padding-top: 0.5em;">
                     {% block button %}{% endblock %}
                 </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center" style="word-break: break-all;">
+                      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-sun" fill="currentColor" xmlns="http://www.w3.org/2000/svg" onclick="lightMode()">
+                          <path d="M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z"/>
+                          <path fill-rule="evenodd" d="M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z"/>
+                      </svg>
+                      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-moon" fill="currentColor" xmlns="http://www.w3.org/2000/svg" onclick="darkMode()">
+                          <path fill-rule="evenodd" d="M14.53 10.53a7 7 0 0 1-9.058-9.058A7.003 7.003 0 0 0 8 15a7.002 7.002 0 0 0 6.53-4.47z"/>
+                      </svg>
+                      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-eye-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" onclick="colorBlind()">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                          <path fill-rule="evenodd" d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                      </svg>
+                    </div>
+                  </div>
     
                 {% block activity %}{% endblock %}
     
