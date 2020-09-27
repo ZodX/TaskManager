@@ -61,11 +61,11 @@ reszponzív felülettel (rugalmasan alkalmazkodik a különböző böngészőkh�
 
 ## 6. Követelménylista
 
-* Könnyen üzemeltethető rendszer.
-* A felület legyen a felhasználó számára legyen letisztult, valamint egyszerűen kezelhető is.
-* Reszponzív design. A célja, hogy a weboldalunk rugalmasan alkalmazkodjon a különböző böngészők képernyőjének méretéhez, 
+* K01 Könnyen üzemeltethető rendszer.
+* K02 A felület legyen a felhasználó számára legyen letisztult, valamint egyszerűen kezelhető is.
+* K03 Reszponzív design. A célja, hogy a weboldalunk rugalmasan alkalmazkodjon a különböző böngészők képernyőjének méretéhez, 
 így eléri azt, hogy egy optimális megjelenést biztosítson a felhasználónak minden eszközön amely képes böngészésre.
-* Böngészőfüggetlenség ( Chrome, Mozilla, Opera, Microsoft Edge stb..).
+* K04 Böngészőfüggetlenség ( Chrome, Mozilla, Opera, Microsoft Edge stb..).
 
 ## 7. Használati esetek
 
