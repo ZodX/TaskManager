@@ -1,3 +1,4 @@
 
 .vscode/settings.json
 TaskManagerApp/test.db
+*.pyc
