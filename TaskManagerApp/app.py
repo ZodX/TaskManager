@@ -80,8 +80,18 @@ def delete(id):
 def update(id):
     feladat = Task.query.get_or_404(id)
 
-    if request.method == 'POST' and request.form['Feladat'] != "":
+    if request.method == 'POST' and request.form['Feladat'] != "" and request.form['Csoport'] != "":
         feladat.feladat = request.form['Feladat']
+        feladat.csoport = request.form['Csoport']
+
+        if not request.form['Prioritas']:
+            feladat.prioritas = 5
+        elif int(request.form['Prioritas']) < 1:
+            feladat.prioritas = 1
+        elif int(request.form['Prioritas']) > 10:
+            feladat.prioritas = 10
+        else:
+            feladat.prioritas = request.form['Prioritas']
 
         try:
             db.session.commit()
