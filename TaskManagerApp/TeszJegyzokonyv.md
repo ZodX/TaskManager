@@ -8,7 +8,7 @@
 ## Bacsik Mátyás
 
 * Az 'Összes feladat' gombra kattintva az alkalmazás kilistázza az összes adatbázisban található **még nem kész** feldatot.
-
+* Miután a főoldalon kilitázódtak a létező csoportok, a mellettük lévő 'Listázás' gomb kilistázza az adott csoportba tartozó feladatokat.
 
 ## Huri Patrik
 
