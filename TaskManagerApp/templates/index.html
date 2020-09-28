@@ -15,17 +15,12 @@
 {% for csoport in csoportok %}
 <div class="row">
   <div class="col-md-2"></div>
-  <div class="col-md-8 text-center align-middle">
-      <table style="width: 100%;">
-          <tbody>
-            <tr>
-              <td class="align-middle h3 text-left">{{ csoport.csoport }}</td>
-              <td><button type="button" class="btn btn-primary"onclick="location.href='/group/{{csoport.csoport}}'">Listázás</button></td>
-            </tr>
-          </tbody>
-      </table>
+  <div class="col-md-6 text-center align-middle">
+      <div class="align-middle h3 text-left">{{ csoport.csoport }}</div>
   </div>
-  <div class="col-md-2"></div>
+  <div class="col-md-4">
+    <button type="button" onclick="location.href='/group/{{csoport.csoport}}'" class="btn btn-success">Listázás</button>
+  </div>
 </div>
 
 <hr class="col-md-8">
