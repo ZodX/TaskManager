@@ -12,7 +12,8 @@
 * A kilistázott feladatok melletti 'Módosítás' gombra kattintva a modosit.html-re jutunk, ahol újra beállíthatjuk a feladat leírását, prioritását, valamint csoportját. Az időbélyeg a módosítás dátumára állítódik. Egyik mező sem lehet üres.
 
 ## Huri Patrik
-
+* A késznek nyílvánított feladatokat, megjelníthetjük egy új listában, hogy nyomon lehessen követni a feladatainkat. A mezők nem lehetnek üresek.
+* A test.py inicializálásával, sikeresen betöltődött a főöldal, ezáltal hozzá kezdhetünk a weboldal használatához.
 ## Heinrich László
 
 * A törlés funkció használata után a nem kívánatos feladat törlésre kerül. A törölt feladatot nem fogjuk látni a feladatok listában.
