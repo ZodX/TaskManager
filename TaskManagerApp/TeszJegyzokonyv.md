@@ -14,3 +14,7 @@
 ## Huri Patrik
 
 ## Heinrich László
+
+* A törlés funkció használata után a nem kívánatos feladat törlésre kerül. A törölt feladatot nem fogjuk látni a feladatok listában.
+Az adott feladat törlésre kerül az adatbázisból.
+* A feladat késznek nyílvánítása után az adott feladat átkerül a kész feladatok csoportjába.
